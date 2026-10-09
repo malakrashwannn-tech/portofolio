@@ -1,0 +1,52 @@
+.body {
+display: grid;
+} 
+a {
+text-decoration: none;
+color: #ffe499;
+}
+li {
+    text-decoration: none;
+    color: rgb(66, 242, 247);
+    justify-content: space-around;
+    color: #ffed9f;
+}
+ul {
+    list-style-type: none;
+    grid-template-columns: repeat(4, align-items);
+    gap: 25px;
+    justify-content: space-around;
+}
+.navy ul{
+    display: flex;
+    background-color: rgb(28, 34, 90) ;
+    padding: 15px;
+    border-radius: 20px 35px;
+}
+.navy li{
+color: #f1dbaa;
+}
+a:hover {
+    color: #3de8ff;
+    font-size: 17px;
+    font-weight: bolder;
+}
+/*.css {
+    background-color: rgb(236, 250, 255);
+    border-color: bisque;
+}
+.cssp {
+    display: block;
+}*/
+.skills li {
+    justify-content: left;
+    font-size: 30px;
+    color: #9e93ff;
+}
+.simg {
+width: 30%;
+    height: 30%;
+}
+h2 {
+    color: #fc6a45;
+}
